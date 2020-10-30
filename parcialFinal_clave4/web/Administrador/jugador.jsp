@@ -50,6 +50,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
+                <a href="../Reportes/reporteSimple.jsp" class="btn btn-warning btn-sm btn-outline-dark my-2 my-sm-0">Reporte Simple
+             </a> 
+            </li>
+            <li>
+            <a href="../Reportes/reporteSimple.jsp" class="btn btn-warning btn-sm btn-outline-dark my-2 my-sm-0">Reporte Simple
+             </a>
             </li>
             <li class="nav-item">
             <a class="navbar-brand" href="#">Bienvenido: <%=sesion.getAttribute("username")%></a>
