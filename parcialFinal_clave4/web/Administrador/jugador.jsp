@@ -41,7 +41,7 @@
         }
     %>
     <%--Inicio del menu--%>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">EXAMEN PARCIAL FINAL DAUTE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -52,11 +52,11 @@
             <li class="nav-item active">
             </li>
             <li class="nav-item">
-            <a class="navbar-brand" href="#">Welcome <%=sesion.getAttribute("username")%></a>
+            <a class="navbar-brand" href="#">Bienvenido: <%=sesion.getAttribute("username")%></a>
             </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <a class="btn btn-sm btn-outline-dark my-2 my-sm-0" href="../login.jsp?cerrar=true">Cerrar sesión</a>
+                <a class="btn btn-warning btn-sm btn-outline-dark my-2 my-sm-0" href="../login.jsp?cerrar=true">Cerrar sesión</a>
             </form>
         </div>
     </nav>
@@ -73,7 +73,7 @@
         <div class="container">        
             <div class="row mt-4 mb-4 text-center">
                 <div class="col-lg-12 col-md-6 col-md-12 bg-light">
-                    <h1>CRUD DE PASAJERO</h1>
+                    <h1>CRUD DE JUGADOR</h1>
                 </div>
             </div>
             <div class="row mb-4">           
