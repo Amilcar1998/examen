@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author Dennis
+ * @author Chmod
  */
 public class DaoJugador extends Conexion{
     

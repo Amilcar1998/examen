@@ -13,7 +13,7 @@ import modelo.Jugador;
 
 /**
  *
- * @author Dennis
+ * @author Chmod
  */
 public class ProcesarDatosJugador extends HttpServlet {
 

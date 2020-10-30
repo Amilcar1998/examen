@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author Dennis
+ * @author Chmod
  */
 public class Conexion {
       private Connection con;
@@ -14,7 +14,7 @@ public class Conexion {
     public void conectar() throws Exception{
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/barrientosfernandezzepeda";
+            String url = "jdbc:mysql://localhost:3306/ramirezlopezhernandez";
             String user = "root";
             String password = "";
             con = DriverManager.getConnection(url, user, password);

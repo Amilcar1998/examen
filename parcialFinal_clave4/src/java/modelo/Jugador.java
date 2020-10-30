@@ -3,7 +3,7 @@ package modelo;
 
 /**
  *
- * @author Dennis
+ * @author Chmod
  */
 public class Jugador {
     private int codigoJugador;

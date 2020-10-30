@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 
 /**
  *
- * @author Dennis
+ * @author Chmod
  */
 public class Validar extends Conexion{
       //validar usuario
